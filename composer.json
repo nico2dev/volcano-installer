@@ -1,0 +1,26 @@
+{
+    "name": "nico2dev/volcano-installer",
+    "description": "A composer installer for Volcano 1.x packages.",
+    "type": "composer-installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Devoy",
+            "email": "nicolas@nicodev.fr",
+            "homepage": "https://nicodev.fr",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "composer/composer": "2.2.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volcano\\Composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Volcano\\Composer\\Installer\\PackageInstaller"
+    },
+    "minimum-stability": "dev"
+}

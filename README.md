@@ -1,0 +1,1 @@
+# A composer installer for Volcano 1.x packages
